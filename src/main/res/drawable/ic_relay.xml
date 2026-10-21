@@ -1,0 +1,8 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="48dp" android:height="48dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#173F36" android:pathData="M24,4H84Q104,4 104,24V84Q104,104 84,104H24Q4,104 4,84V24Q4,4 24,4Z" />
+    <!-- Original LI monogram, vehicle silhouette and location marker. -->
+    <path android:fillColor="#FFFFFF" android:pathData="M30,29H37V45H46V52H30ZM51,29H58V52H51Z" />
+    <path android:fillColor="#A4D8B9" android:fillType="evenOdd" android:pathData="M73,27C66.9,27 63,31.2 63,36.5C63,43 73,54 73,54C73,54 83,43 83,36.5C83,31.2 79.1,27 73,27ZM73,32.5A4,4 0,1 1,72.99,32.5Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M36,56H72Q75,56 76,59L81,69V77H77V82H70V77H38V82H31V77H27V69L32,59Q33,56 36,56Z" />
+    <path android:fillColor="#173F36" android:pathData="M37,60H71L74,67H34ZM32,70H41V73H32ZM67,70H76V73H67Z" />
+</vector>

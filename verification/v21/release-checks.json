@@ -1,0 +1,38 @@
+{
+  "name": "Li Auto Map Relay",
+  "version": "2.1",
+  "java_assertions": 64,
+  "focused_emulator_checks": 7,
+  "apks": [
+    {
+      "variant": "Amap",
+      "package": "com.autonavi.minimap",
+      "bytes": 41235,
+      "sha256": "0da41b0ce164850b6f45c7035a8a31479ea72953e438bb34a963229eca3e7e86",
+      "permissions": [],
+      "debuggable": false,
+      "backup": false,
+      "locales": "locales: '--_--' 'ru'"
+    },
+    {
+      "variant": "Baidu",
+      "package": "com.baidu.BaiduMap",
+      "bytes": 41235,
+      "sha256": "651d47265525ccc356410bd02ed8d82cae2689e166d5a37da504b15c16fd5047",
+      "permissions": [],
+      "debuggable": false,
+      "backup": false,
+      "locales": "locales: '--_--' 'ru'"
+    },
+    {
+      "variant": "Tencent",
+      "package": "com.tencent.map",
+      "bytes": 41235,
+      "sha256": "fcbb2285526108ce4e0598dc36922e1e73f6522e118303d11367eb2c67cf0533",
+      "permissions": [],
+      "debuggable": false,
+      "backup": false,
+      "locales": "locales: '--_--' 'ru'"
+    }
+  ]
+}

@@ -6,30 +6,24 @@ Unofficial community utility; not affiliated with Li Auto, Amap, Baidu or Tencen
 
 ## Download
 
-Get the signed APKs from [GitHub Releases](https://github.com/suro-sk/Li-Auto-Map-Relay/releases/latest). Install **one** compatibility variant:
-
-- [Tencent-compatible APK](https://github.com/suro-sk/Li-Auto-Map-Relay/releases/download/v2.1/MapRelay-Tencent.apk) — choose this if you want to keep the real Amap app installed.
-- [Amap-compatible APK](https://github.com/suro-sk/Li-Auto-Map-Relay/releases/download/v2.1/MapRelay-Amap.apk).
-- [Baidu-compatible APK](https://github.com/suro-sk/Li-Auto-Map-Relay/releases/download/v2.1/MapRelay-Baidu.apk).
+Get the signed [Baidu-compatible APK](https://github.com/suro-sk/Li-Auto-Map-Relay/releases/download/v2.1/MapRelay-Baidu.apk) from [GitHub Releases](https://github.com/suro-sk/Li-Auto-Map-Relay/releases/latest). The published release contains the **Baidu variant only**.
 
 The release also includes a source ZIP and `SHA256SUMS.txt`. Google Play Protect may ask to scan an unfamiliar APK; select **Scan / Проверить** and wait for its result. See [Google's scanning guidance](https://support.google.com/googleplay/answer/2812853?hl=en). These APKs have not been preapproved by Google.
 
 ## Install and use
 
-Requires Android 7.0 or newer. Install **one** of these APKs, choosing a compatibility slot whose real map app is not installed:
+Requires Android 7.0 or newer. Install the Baidu-compatible APK while the real Baidu Maps app is not installed:
 
 | Release APK (also built into `dist/`) | Select inside Li Auto | Android package occupied |
 | --- | --- | --- |
-| MapRelay-Tencent.apk | Tencent Maps | `com.tencent.map` |
-| MapRelay-Amap.apk | Amap | `com.autonavi.minimap` |
 | MapRelay-Baidu.apk | Baidu Maps | `com.baidu.BaiduMap` |
 
-The Tencent variant lets you keep a real Amap installation. All variants display **Li Auto Map Relay** on Android, with an original dark-green LI, car and location-pin icon. Android cannot install the relay alongside the real app with the same package; that also means they cannot update each other.
+The app displays **Li Auto Map Relay** on Android, with an original dark-green LI, car and location-pin icon. Android cannot install this relay alongside real Baidu Maps because they occupy the same package; they also cannot update each other. You can keep real Amap or Tencent Maps installed.
 
 1. Install Yandex Maps, or another app that accepts standard map-coordinate links.
-2. Install your chosen Map Relay APK using Android's normal APK installer. Allow installation from the source you used if Android asks.
+2. Install `MapRelay-Baidu.apk` using Android's normal APK installer. Allow installation from the source you used if Android asks.
 3. In Li Auto, open the car-location screen and tap the external-map arrow.
-4. Select the Chinese-map entry corresponding to your relay variant. Li Auto's sheet keeps its original label.
+4. Select **Baidu Maps**. Li Auto's sheet keeps its original label.
 5. Map Relay shows the destination coordinates and the available maps. Tap **Yandex Maps**, or another map.
 
 Choose **Show pin**, **Walking** or **Driving** before selecting a map. Yandex and Google Maps receive the requested route mode; other maps receive a standard pin so you can choose routing inside that app. Route links ask the receiving map to choose the starting location; Map Relay does not read the phone's GPS or start tracking.
@@ -71,7 +65,7 @@ The Java suite covers parsing, coordinate order, Unicode labels, correction, mal
 
 **Actual Li Auto and actual Yandex Maps still need to be tried together on your phone.** Emulator checks verify the handoff mechanics and outgoing URI; they do not establish real Yandex rendering or behavior on every Android vendor build.
 
-Do not install the test receiver APKs in `build/fixtures/` on your phone: they are fixtures, not Yandex Maps. Only the three `dist/MapRelay-*.apk` files are release outputs.
+Do not install the test receiver APKs in `build/fixtures/` on your phone: they are fixtures, not Yandex Maps. The published release APK is `MapRelay-Baidu.apk`.
 
 ## Build from source
 

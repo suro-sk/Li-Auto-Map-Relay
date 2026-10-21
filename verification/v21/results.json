@@ -1,0 +1,12 @@
+{
+  "version": "2.1",
+  "passed": [
+    "All three version 2.1 compatibility APKs install with the existing signatures",
+    "Upgrade from saved Armenian preference falls back to system English without a crash",
+    "Language chooser contains only system default, English and Russian",
+    "Russian and English still switch correctly after the upgrade",
+    "Existing saved location and its coordinates survive the update",
+    "Remembered map survives the update and receives the new destination",
+    "Diagnostic reports use the new app name and version"
+  ]
+}

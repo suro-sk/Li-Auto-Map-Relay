@@ -1,0 +1,29 @@
+PASS: 34 coordinate, protocol and validation assertions
+PASS: 30 route, format, sharing and history assertions
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Amap: 41235 bytes - C:\Users\suro9\Documents\ChatGPT\rea\map-relay\dist\MapRelay-Amap.apk
+Baidu: 41235 bytes - C:\Users\suro9\Documents\ChatGPT\rea\map-relay\dist\MapRelay-Baidu.apk
+Tencent: 41235 bytes - C:\Users\suro9\Documents\ChatGPT\rea\map-relay\dist\MapRelay-Tencent.apk

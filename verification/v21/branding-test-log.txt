@@ -1,0 +1,8 @@
+PASS: All three version 2.1 compatibility APKs install with the existing signatures
+PASS: Upgrade from saved Armenian preference falls back to system English without a crash
+PASS: Language chooser contains only system default, English and Russian
+PASS: Russian and English still switch correctly after the upgrade
+PASS: Existing saved location and its coordinates survive the update
+PASS: Remembered map survives the update and receives the new destination
+PASS: Diagnostic reports use the new app name and version
+All 7 branding and language upgrade checks passed.

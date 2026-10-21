@@ -1,0 +1,12 @@
+/build/
+/signing/
+/dist/
+__pycache__/
+*.pyc
+/*-log.txt
+/verification/v2/
+*.p12
+*.jks
+*.keystore
+.env
+.env.*
